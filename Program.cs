@@ -2,6 +2,7 @@
 
 using Design_Patterns.Behavioral.chain_of_responsibility;
 using Design_Patterns.Behavioral.state;
+using Design_Patterns.Behavioral.strategy;
 using Design_Patterns.Behavioral.template_method;
 
 Console.WriteLine("Hello, World!");
@@ -16,4 +17,8 @@ TemplateMethodClient tm = new TemplateMethodClient();
 
 // Chain of responsibility pattern
 ChainOfResponsibilityClient crc = new ChainOfResponsibilityClient();
-crc.Run();
+// crc.Run();
+
+// Strategy pattern
+StrategyClient spc = new StrategyClient();
+spc.Run();
