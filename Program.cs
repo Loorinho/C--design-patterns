@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Design_Patterns.Behavioral.chain_of_responsibility;
+using Design_Patterns.Behavioral.observer;
 using Design_Patterns.Behavioral.state;
 using Design_Patterns.Behavioral.strategy;
 using Design_Patterns.Behavioral.template_method;
@@ -21,4 +22,8 @@ ChainOfResponsibilityClient crc = new ChainOfResponsibilityClient();
 
 // Strategy pattern
 StrategyClient spc = new StrategyClient();
-spc.Run();
+// spc.Run();
+
+// Observer pattern
+ObserverClient oc = new ObserverClient();
+oc.Run();
