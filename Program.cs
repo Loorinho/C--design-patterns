@@ -5,6 +5,7 @@ using Design_Patterns.Behavioral.observer;
 using Design_Patterns.Behavioral.state;
 using Design_Patterns.Behavioral.strategy;
 using Design_Patterns.Behavioral.template_method;
+using Design_Patterns.Structural.composite;
 
 Console.WriteLine("Hello, World!");
 
@@ -26,4 +27,7 @@ StrategyClient spc = new StrategyClient();
 
 // Observer pattern
 ObserverClient oc = new ObserverClient();
-oc.Run();
+// oc.Run();
+
+CompositeClient cp = new CompositeClient();
+cp.Run();
