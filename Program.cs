@@ -7,6 +7,7 @@ using Design_Patterns.Behavioral.strategy;
 using Design_Patterns.Behavioral.template_method;
 using Design_Patterns.Structural.composite;
 using Design_Patterns.Structural.decorator;
+using Design_Patterns.Structural.Facade;
 
 Console.WriteLine("Hello, World!");
 
@@ -42,5 +43,9 @@ CompositeClient cp = new CompositeClient();
 
 // Decorator pattern
 DecoratorClient dc = new DecoratorClient();
-dc.Run();
+// dc.Run();
+
+//Facade pattern
+FacadeClient fp = new FacadeClient();
+fp.Run();
 
