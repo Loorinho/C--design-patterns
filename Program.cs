@@ -6,6 +6,7 @@ using Design_Patterns.Behavioral.state;
 using Design_Patterns.Behavioral.strategy;
 using Design_Patterns.Behavioral.template_method;
 using Design_Patterns.Structural.composite;
+using Design_Patterns.Structural.decorator;
 
 Console.WriteLine("Hello, World!");
 
@@ -29,5 +30,17 @@ StrategyClient spc = new StrategyClient();
 ObserverClient oc = new ObserverClient();
 // oc.Run();
 
+
+
+// Structural design patterns
+
+
+// Composite pattern
 CompositeClient cp = new CompositeClient();
-cp.Run();
+// cp.Run();
+
+
+// Decorator pattern
+DecoratorClient dc = new DecoratorClient();
+dc.Run();
+
