@@ -7,7 +7,7 @@ public class SingletonClient
         Singleton s1 = Singleton.GetInstance();
         Singleton s2 = Singleton.GetInstance();
 
-        Console.WriteLine(s1 == s2);
+        Console.WriteLine(object.ReferenceEquals(s1, s2));
         
     }
 }
