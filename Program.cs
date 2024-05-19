@@ -5,11 +5,17 @@ using Design_Patterns.Behavioral.observer;
 using Design_Patterns.Behavioral.state;
 using Design_Patterns.Behavioral.strategy;
 using Design_Patterns.Behavioral.template_method;
+using Design_Patterns.Creational.factory_method;
 using Design_Patterns.Structural.composite;
 using Design_Patterns.Structural.decorator;
 using Design_Patterns.Structural.Facade;
 
-Console.WriteLine("Hello, World!");
+// Creational design patterns
+
+// Factory method pattern
+
+FactoryMethodClient fm = new FactoryMethodClient();
+fm.Run();
 
 // State design pattern
 StateClient sc = new StateClient();
@@ -47,5 +53,5 @@ DecoratorClient dc = new DecoratorClient();
 
 //Facade pattern
 FacadeClient fp = new FacadeClient();
-fp.Run();
+// fp.Run();
 
