@@ -8,6 +8,7 @@ using Design_Patterns.Behavioral.template_method;
 using Design_Patterns.Creational.factory_method;
 using Design_Patterns.Creational.prototype;
 using Design_Patterns.Creational.singleton;
+using Design_Patterns.Structural.bridge;
 using Design_Patterns.Structural.composite;
 using Design_Patterns.Structural.decorator;
 using Design_Patterns.Structural.Facade;
@@ -24,7 +25,7 @@ SingletonClient stp = new SingletonClient();
 
 // Prototype pattern
 PrototypeClient pp = new PrototypeClient();
-pp.Run();
+// pp.Run();
 
 // State design pattern
 StateClient sc = new StateClient();
@@ -63,4 +64,9 @@ DecoratorClient dc = new DecoratorClient();
 //Facade pattern
 FacadeClient fp = new FacadeClient();
 // fp.Run();
+
+// Bridge patern
+BridgeClient bp = new BridgeClient();
+bp.Run();
+
 

@@ -7,11 +7,19 @@ public class Student: Person
     public Teacher Teacher {get;
         set;
     }
+    
+    // mine
+    private Student _st;
 
     public Student(string name, Teacher teacher) : base(name)
     {
         Teacher = teacher;
     }
+    
+    // private Student(Person student) 
+    // {
+    //     _st = student;
+    // }
 
     public override Person Clone()
     {
@@ -29,5 +37,8 @@ public class Student: Person
         // Here we are now creating a new copy of the Teacher object and we are not referencing the old one
         studentClone.Teacher = new Teacher(this.Teacher.Name, this.Teacher.Course);
         return studentClone;
+        
+        // My own
+        // return new Student(this);
     }
 }
