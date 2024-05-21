@@ -11,6 +11,7 @@ using Design_Patterns.Creational.singleton;
 using Design_Patterns.Structural.bridge;
 using Design_Patterns.Structural.composite;
 using Design_Patterns.Structural.decorator;
+using Design_Patterns.Structural.decorator_v2;
 using Design_Patterns.Structural.Facade;
 
 // Creational design patterns
@@ -61,12 +62,15 @@ CompositeClient cp = new CompositeClient();
 DecoratorClient dc = new DecoratorClient();
 // dc.Run();
 
+DecoratorV2Client dc2 = new DecoratorV2Client();
+dc2.Run();
+
 //Facade pattern
 FacadeClient fp = new FacadeClient();
 // fp.Run();
 
 // Bridge patern
 BridgeClient bp = new BridgeClient();
-bp.Run();
+// bp.Run();
 
 
